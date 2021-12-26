@@ -11,16 +11,28 @@
 </head>
 <body>
   <header>
-    <nav>
-      <div class="logo"><i class="fas fa-dove"></i></div>
-      <div class="link">
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="logo float-start bg-dark align-middle" >
+        <a href="index.html" class="text-success fs-2 ms-4">
+          <i class="fas fa-dove"></i>
+        </a>
+      </div>
+      <div class="container-fluid justify-content-end align-middle">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
     </nav>
+    <div class="link collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <a class="text-white h4" href="actualites.html">Actualités</a>
+        <a class="text-white h4" href="missions.html">Missions</a>
+        <a class="text-white h4" href="decouvrir.html">Nous décrouvrir</a>
+        <a class="text-white h4" href="aider.html">Nous aider</a>
+        <a class="text-white h4" href="contact.html">Contact</a>
+      </div>
+    </div>
   </header> 
 </body>
+<script src="main.js"></script>
 </html>
